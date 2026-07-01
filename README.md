@@ -54,7 +54,7 @@ A production-ready, community-driven FAQ platform built for IIT Ropar — where 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 vicharanshala/
@@ -133,18 +133,18 @@ vicharanshala/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
-- Node.js 18+
+- Node.js 20+
 - PostgreSQL 15+
 - npm / yarn
 
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-org/vicharanshala-lab.git
-cd vicharanshala-lab
+git clone https://github.com/vicharanashala/team-6a314e2012663badc7eb1814.git
+cd team-6a314e2012663badc7eb1814
 npm run install:all
 ```
 
@@ -209,9 +209,9 @@ Open **http://localhost:5173**
 ### One-command start
 
 ```bash
-# Copy and configure environment
-cp backend/.env.example .env
-# Edit .env with production values
+# Copy and configure environment (backend .env)
+cp backend/.env.example backend/.env
+# Edit backend/.env with production values
 
 # Start all services
 docker-compose up -d
@@ -368,9 +368,8 @@ CLIENT_URL=https://vicharanshala.iitropar.ac.in
 ### Google OAuth Setup
 1. Go to [Google Cloud Console](https://console.cloud.google.com)
 2. Create a new project
-3. Enable **Google+ API**
-4. Create OAuth 2.0 credentials
-5. Add authorized redirect URIs: `https://yourdomain.com/api/auth/google/callback`
+3. Configure the OAuth consent screen and create OAuth 2.0 credentials (do not rely on the deprecated Google+ API). Optionally enable the People API if you need profile scopes.
+4. Add authorized redirect URIs: `https://yourdomain.com/api/auth/google/callback`
 
 ### SSL/TLS (Let's Encrypt)
 ```bash
@@ -446,4 +445,6 @@ Built with ❤️ for the IIT Ropar community.
 
 ---
 
-*For questions, contact: vicharanshala@iitropar.ac.in*
+
+# team-6a314e2012663badc7eb1814
+FAQ Crowdsourcing project — Samriddhi Bansal
